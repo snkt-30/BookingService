@@ -17,6 +17,7 @@ const setupAndStartServer = async () => {
       db.sequelize.sync({ alter: true });
     }
     console.log(`Server Started on the PORT ${PORT}`);
+    
   });
 };
 
